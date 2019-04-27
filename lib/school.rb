@@ -10,7 +10,7 @@ attr_accessor :name, :roster
   
   def add_student(name, grade)
     @roster[grade] ||= []
-    # this is same as above: @roster[grade] = roster[grade] || []
+    # same as above: @roster[grade] = roster[grade] || []
     @roster[grade] << name
   end
   
